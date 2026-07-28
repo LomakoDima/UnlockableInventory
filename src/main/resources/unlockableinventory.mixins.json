@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dimalab.unlockableinventory.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "unlockableinventory.refmap.json",
+  "mixins": [
+    "InventoryMixin"
+  ],
+  "client": [
+    "AbstractContainerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
